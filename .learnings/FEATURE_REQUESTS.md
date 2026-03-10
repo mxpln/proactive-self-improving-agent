@@ -1,6 +1,6 @@
 # Feature Requests
 
-用户请求的能力和改进。
+User Request Capabilities and Improvements。
 
 **Statuses**: pending | resolved
 
