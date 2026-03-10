@@ -1,6 +1,6 @@
 # Errors
 
-命令失败、异常、意外行为。
+Command failure, exception, unexpected behavior.
 
 **Areas**: research | infra | tools | docs | config
 **Statuses**: pending | resolved
