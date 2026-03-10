@@ -1,4 +1,4 @@
-# Proactive Self-Improving Agent
+# Proactive Self-Improving Agent (Translated to English)
 
 Automatically Capture Experience · Safely Evolve · Record Trajectory
 
@@ -17,10 +17,10 @@ A self-improving skill designed specifically for OpenClaw agents, integrating th
 
 ```bash
 # OpenClaw
-openclaw add https://github.com/yanhongxi-openclaw/proactive-self-improving-agent
+openclaw add https://github.com/mxpln/proactive-self-improving-agent
 
 # Or manually
-git clone https://github.com/yanhongxi-openclaw/proactive-self-improving-agent.git ~/.openclaw/skills/proactive-self-improving-agent
+git clone https://github.com/mxpln/proactive-self-improving-agent.git ~/.openclaw/skills/proactive-self-improving-agent
 ```
 
 ## Usage
