@@ -1,7 +1,8 @@
 ---
 name: proactive-self-improving-agent
 version: 1.0.0
-description: "Skill for automatically capturing experience and safely evolving. Trigger conditions: (1) When commands/operations fail → Log to ERRORS.md (2) When corrected by user ('incorrect'/'should be') → Log to LEARNINGS.md (3) When user requests non-existent capabilities → Log to FEATURE_REQUESTS.md (4) When external APIs/tools fail → Log in ERRORS.md (5) When discovering outdated/incorrect knowledge → Log in LEARNINGS.md (6) When discovering better practices → Log in LEARNINGS.md (7) Upon completing each task → Review process; log new insights in LEARNINGS.md if applicable. Deduplication principle: Skip writing if no new insights exist or existing entries cover the topic. Each entry also appends JSONL logs to .learnings/CHANGELOG.md. Insights recurring ≥3 times are promoted to AGENTS.md/TOOLS.md/SOUL.md. See main text for details.
+description: "Automatically capture experience and safely evolve skills. Trigger conditions: 
+(1) When commands/operations fail → Log in ERRORS.md (2) When corrected by users ('That's wrong'/'It should be...') → Log in LEARNINGS.md (3) When users request non-existent capabilities → Log in FEATURE_REQUESTS.md (4) When external APIs/tools fail → Log to ERRORS.md (5) When discovering outdated/incorrect knowledge → Log to LEARNINGS.md (6) When discovering better practices → Log toLEARNINGS.md (7) Upon completing each task → Review the process. If new insights emerge, document them in LEARNINGS.md. Duplication prevention principle: Skip writing if no new insights are gained or if existing entries already cover the topic. Each entry is simultaneously saved in .learnings/CHANGELOG.md now includes JSONL logs. When an experience occurs ≥3 times, it is promoted to AGENTS.md/TOOLS.md/SOUL.md. See main text for details."
 author: yanhongxi-openclaw
 ---
 
@@ -433,3 +434,4 @@ skills/<new-skill>/      （提取为独立技能）
 ---
 
 *"每次犯错都是进化的燃料，前提是你把它记下来。"*
+
